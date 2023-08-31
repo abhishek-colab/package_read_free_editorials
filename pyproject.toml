@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pyspark_utils"
+version = "0.0.1"
+authors = [
+  { name="Abhishek Singh", email="bhaiyu777@gmail.com" },
+]
+description = "This package can be used preparing data using One Hot Encoding, then train and evaluate models"
+readme = "README.md"
+requires-python = ">=3.7"
+requires-pyspark = ">=3.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/abhishek-colab/package_pyspark_utils.git"
+"Bug Tracker" = "https://github.com/abhishek-colab/package_pyspark_utils.git/issues"
