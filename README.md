@@ -12,6 +12,8 @@ Use the following command to install the package:
 
 To get the article execute the following command in a .py or .ipynb file:
 ```
-from free_editorial import read
-read('pass your url')
+from free_editorials.read_free import read
+url = 'Enter your URL here'
+
+read(url)
 ```

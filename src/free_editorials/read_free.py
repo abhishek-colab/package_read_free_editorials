@@ -28,15 +28,16 @@ def read(url:str) -> None:
         for text in texts:
             print(text.get_text())
 
-try: 
-    url = sys.argv[1]
-    
-    try:
-        read(url)
-    except:
-        print("check url")
+if __name__ == "__main__":
+    try: 
+        url = sys.argv[1]
+        
+        try:
+            read(url)
+        except:
+            print("check url")
 
-except:
-        print("check or pass url")
+    except:
+            print("check or pass url")
 
 
