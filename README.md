@@ -1,4 +1,4 @@
-# package_pyspark_utils
+# package_read_free_editorials
 
 A Python package to help you read editorials without subscribing. Works well with Indian Express,  Mint, The Hindu and a lot more. It contains the following functions:
 
