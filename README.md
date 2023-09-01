@@ -1,12 +1,17 @@
 # package_pyspark_utils
 
-A Python package performs a small collection of functions on pyspark DatFrames. It contains the following functions:
+A Python package to help you read editorials without subscribing. Works well with Indian Express,  Mint, The Hindu and a lot more. It contains the following functions:
 
-- data_prep:
-  - prepare_data: This function prepares data to be fed to a ml model. Performs indexing and one hot encoding on categorical columns.
+- read_free:
+  - read: This function takes a url and returns the article
 
-- train:
-  - train_model: This function trains a machine learning model
- 
-- evaluate:
-  - evaluate_model: This function evaluates a trained machine learning model
+Use the following command to install the package:
+```
+
+```
+
+To get the article execute the following command in a .py or .ipynb file:
+```
+from free_editorial import read
+read('pass your url')
+```
